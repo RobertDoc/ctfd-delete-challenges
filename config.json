@@ -1,0 +1,4 @@
+{
+        "name": "CTFd - Delete All Challenges",
+        "route": "/admin/challenge_delete"
+}

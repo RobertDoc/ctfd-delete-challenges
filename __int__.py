@@ -1,0 +1,1 @@
+from .deleteall import load

@@ -1,0 +1,14 @@
+{% extends "admin/base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+	<div class="container">
+		<h1>Delete All Challenges (WARNING: Cannot be undone)</h1>
+	</div>
+</div>
+<div class="container">
+    <div class="d-block py-3">
+        <a href="{{ request.script_root }}/admin/do_delete_challenges" class="btn btn-primary" id="export-challenges">Delete</a>
+    </div>
+</div>
+{% endblock %}
